@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<title>My Portfolio</title>
+	<link rel= "stylesheet" type="text/css" href= "style.css">
+  </head>
+<body>
+	<div class="header">	
+		<h1 class="logo">Rory Murray</h1>
+    	<div class="header-right">
+       		<a class="active" href="#home">Home</a>
+       		<a href="#services">About</a>
+       		<a href="#contact">Projects</a>
+       		<a href="#about">Contact</a>
+    	</div>
+	</div>
+
+	<div class="about-me">
+		<p>Hello, I am a recent computer science graduate from the National University of Ireland Galway looking to start my career as a software engineer. </p>
+	</div>
+
+	<div class="main-image">
+		<img src="images/Profileimg-cropped.png" class="image" >
+	</div>
+
+	<section class="my-services" id="services">
+            <h2 class="section__title section__title--services" id="about-me">About Me</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Programming</h3>
+                    <p>A interest and passion for coding in various lanuages built up from my time in college and coding in my own time. Specifically I enjoy the areas of AI and web development.</p>
+                </div>
+                
+                <div class="service">
+                    <h3>Travelling</h3>
+                    <p>When I have the time I love  to travel and see new places with my friends or family. Most summers I would try and head somewhere new and explore the area.</p>
+                </div> 
+                
+             
+            </div> 
+
+            <div class="services">
+                <div class="service">
+                    <h3>Sports</h3>
+                    <p>Sports are a big part of my life. I have played football since a kid and currently play both competitively and for fun. I also enjoy running in spare time aswell to keep fit. Outside of those two I do occasionally skateboard and ski if at all possible.</p>
+                </div> 
+            
+                
+             
+            </div> 
+            
+      
+
+    </section>
+
+    <div class="slideshow">
+        	<div class="mySlides">				
+      			<img src="images/Washington.jpg" class="imgslides" alt="Visiting the State Capitol in Washington 2019">
+ 			</div>
+ 			<div class="mySlides">				
+      			<img src="images/graduation_copy.jpg" class="imgslides" alt="Computer Science graduation 2021">
+ 			</div>
+ 			<div class="mySlides">				
+      			<img src="images/Amsterdam.jpeg" class="imgslides" alt="Trip to Amsterdam 2018">
+ 			</div>
+ 			<div class="mySlides">				
+      			<img src="images/Devon_copy.jpg" class="imgslides" alt="After winning the Galway cup with my local football club">
+ 			</div>
+ 			<div class="mySlides">				
+      			<img src="images/skiing_copy.jpg" class="imgslides" alt="Skiing in Austria 2019">
+ 			</div>
+
+
+ 	    	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+  			<div class="caption-container">
+   				 <p id="caption">test</p>
+  			</div>
+		
+    </div>
+
+    <section class="experience">
+    	<h2 class="education">Education</h2>
+        <div class="Edu-container">
+        	<div class="edu-left">
+        		
+        		<h3>Secondary School</h3>
+        		<img src="images/bish.png" class="edu-logo">
+        		<h4>St.Josephs College Galway 2012-2017</h4>
+        		<p>Leaving Certificate 531 points.</p>
+        		<p>Subjects : Irish, English, Maths, Design & Communication graphics, Physics & Chemistry, French, Accounting.</p>
+    		
+    		</div>
+    		<div class="edu-right">
+    			<h3>University</h3>
+    			<img src="images/nuig.jpg" class="edu-logo">
+    			<h4>National University of Ireland Galway 2017-2021</h4>
+    			<p>B.Sc Computer Science & Information Technology</p>
+    			<p>Second Class Honours Grade 1</p>
+
+    		
+    		</div>
+        </div>
+
+        <h2 class="education">Work Experience</h2>
+        <div class="work-exp">
+        	<div class="work-container">
+        		<h4>Receptionist Corrib Village</h4>
+        		<button id="dropdown" onclick="drop();">click
+        			<span></span>
+        		</button>
+        		
+        	</div>
+        	<div id="reception">
+        		<p>Summer 2018, 2019, 2021</p>
+        	</div>
+        	<h4>Receptionist Corrib Village</h4>
+        	<p>Summer 2018, 2019, 2021</p>
+        	<h4>Retail IT intern Irish Life</h4>
+        	<p>2020 January - August</p>
+        	
+        </div>
+
+    </section>
+
+    <section></section>
+
+
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
