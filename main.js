@@ -1,5 +1,6 @@
 var slideIndex = 1;
 showSlides(slideIndex);
+
 //document.getElementById("dropdown").onclick = drop();
 
 // Next/previous controls
@@ -28,15 +29,20 @@ function showSlides(n) {
   captionText.innerHTML = img[slideIndex-1].alt;
 }
 
-function drop(){
-  var info = document.getElementById("reception");
-  console.log(info.style.display);
+function drop(textid,arrowid,btnid){
+  var info = document.getElementById(textid);
+  arrow = document.getElementById(arrowid);
+  btn = document.getElementById(btnid);
+  
   if(info.style.display === "block") {
     info.style.display = "none"
+    arrow.style.transform = "rotate(-135deg)";
+
     
   } 
   else {
     info.style.display = "block";
+    arrow.style.transform = "rotate(-225deg)";
   }
   
 }
